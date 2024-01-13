@@ -5,6 +5,7 @@
 
     "files.associations": {
         "*.C": "cpp",
+        "*.C.in": "cpp"
     },
 
     "[cpp]": {
@@ -14,26 +15,31 @@
         "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
         "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
         "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
-        "lpubsppop01.autoTimeStamp.lineLimit": 7,
-    }
+        "lpubsppop01.autoTimeStamp.lineLimit": 7
+    },
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
 
     "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
 
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 
     "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format",
+        "editor.defaultFormatter": "foxundermoon.shell-format"
     },
 
     "[css]": {
-        "editor.defaultFormatter": "aeschli.vscode-css-formatter",
-    },
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    }
 }
