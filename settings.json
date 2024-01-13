@@ -1,45 +1,56 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
 
-    "files.associations": {
-        "*.C": "cpp",
-        "*.C.in": "cpp"
-    },
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
 
-    "[cpp]": {
-        "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
-        "C_Cpp.intelliSenseEngineFallback": "enabled",
-        "C_Cpp.intelliSenseEngine": "Tag Parser",
-        "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
-        "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
-        "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
-        "lpubsppop01.autoTimeStamp.lineLimit": 7
-    },
+  "files.associations": {
+    "*.C": "cpp",
+    "*.C.in": "cpp"
+  },
 
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
-    },
+  "[cpp]": {
+    "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
+    "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
+    "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
+    "lpubsppop01.autoTimeStamp.lineLimit": 7
+  },
 
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
 
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
 
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    "[css]": {
-        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
-    }
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  }
 }
