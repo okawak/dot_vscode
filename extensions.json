@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "lpubsppop01.vscode-auto-timestamp",
+    "ms-python.black-formatter",
+    "ms-vscode.cpptools",
+    "aeschli.vscode-css-formatter",
+    "tamasfe.even-better-toml",
+    "ms-toolsai.jupyter",
+    "esbenp.prettier-vscode",
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "rust-lang.rust-analyzer",
+    "foxundermoon.shell-format",
+    "timonwong.shellcheck",
+    "redhat.vscode-yaml",
+    "vscode-icons-team.vscode-icons",
+    "github.github-vscode-theme"
+  ]
+}
