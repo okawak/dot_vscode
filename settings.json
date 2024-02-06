@@ -9,7 +9,8 @@
 
   "files.associations": {
     "*.C": "cpp",
-    "*.C.in": "cpp"
+    "*.C.in": "cpp",
+    "*.sh.in": "shellscript"
   },
 
   "[cpp]": {
