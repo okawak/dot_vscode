@@ -1,7 +1,31 @@
 {
+  // editor setting
+  "editor.fontSize": 15,
+  "editor.wordWrap": "off", // 長い行を折り返すか折り返さないか
+  "editor.lineHeight": 0,
+  "editor.renderLineHighlight": "all", // 選択行全てをハイライト
+  "editor.insertSpaces": true, // tabをスペースとして扱う
+  "editor.renderWhitespace": "boundary", // エディタ上での空白表示設定
+  "editor.renderControlCharacters": true, // 制御文字の表示
+  "editor.cursorBlinking": "smooth", // カーソルの点滅をヌルヌルにする
+  "editor.autoIndent": "full", // autoindentを入れる
+  "editor.fontFamily": "Firge35Nerd Console", // font settings
+  "extensions.autoUpdate": true, // プラグインを自動アップデート
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.autoClosingQuotes": "beforeWhitespace",
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "git.enableSmartCommit": true,
+
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
+
+  "breadcrumbs.enabled": false, // パンクズリスト非表示
+
+  "terminal.integrated.env.osx": {
+    "NO_COLOR": null
+  },
 
   "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
   "C_Cpp.intelliSenseEngineFallback": "enabled",

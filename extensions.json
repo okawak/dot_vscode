@@ -14,8 +14,9 @@
     "timonwong.shellcheck",
     "redhat.vscode-yaml",
     "vscode-icons-team.vscode-icons",
-    "github.github-vscode-theme",
     "janisdd.vscode-edit-csv",
-    "mechatroner.rainbow-csv"
+    "mechatroner.rainbow-csv",
+    "vscodevim.vim",
+    "zhuangtongfa.material-theme"
   ]
 }
