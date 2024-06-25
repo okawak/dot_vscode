@@ -17,6 +17,14 @@
     "janisdd.vscode-edit-csv",
     "mechatroner.rainbow-csv",
     "vscodevim.vim",
-    "zhuangtongfa.material-theme"
+    "zhuangtongfa.material-theme",
+    "streetsidesoftware.code-spell-checker",
+    "shardulm94.trailing-spaces",
+    "saikou9901.evilinspector",
+    "christian-kohler.path-intellisense",
+    "vincaslt.highlight-matching-tag",
+    "ms-dotnettools.csharp",
+    "eservice-online.vs-sharper",
+    "ms-dotnettools.csdevkit"
   ]
 }

@@ -8,29 +8,42 @@
   "editor.renderWhitespace": "boundary", // エディタ上での空白表示設定
   "editor.renderControlCharacters": true, // 制御文字の表示
   "editor.cursorBlinking": "smooth", // カーソルの点滅をヌルヌルにする
-  "editor.autoIndent": "full", // autoindentを入れる
+  "editor.autoIndent": "full", // auto indentを入れる
   "editor.fontFamily": "Firge35Nerd Console", // font settings
-  "extensions.autoUpdate": true, // プラグインを自動アップデート
   "editor.autoClosingBrackets": "beforeWhitespace",
   "editor.autoClosingQuotes": "beforeWhitespace",
   "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
-  "git.enableSmartCommit": true,
-
+  "editor.copyWithSyntaxHighlighting": false, // テキストコピー時に書式を含めるかどうか
+  "editor.dragAndDrop": false, // drag and dropできるかどうか
+  "editor.showFoldingControls": "always", // 常に表示させるかどうか
+  "editor.tabSize": 2, // タブのスペースの数
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
 
+  "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示する文字列の設定
+
+  "workbench.editor.tabSizing": "shrink", // editor tab size
+  "workbench.iconTheme": "vscode-icons-team.vscode-icons", // icon theme
+
+  "search.showLineNumbers": true,
+
   "breadcrumbs.enabled": false, // パンクズリスト非表示
 
+  "extensions.autoUpdate": true, // プラグインを自動アップデート
+
+  "terminal.external.osxExec": "WezTerm.app",
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.env.osx": {
     "NO_COLOR": null
   },
 
-  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
-  "C_Cpp.intelliSenseEngineFallback": "enabled",
-  "C_Cpp.intelliSenseEngine": "Tag Parser",
-
+  "files.eol": "\n",
+  "files.insertFinalNewline": true, // ファイル保存時に行末に改行を挿入
+  "files.trimFinalNewlines": true, // ファイル保存時に最終行以降の空行を削除
+  "files.trimTrailingWhitespace": true, // ファイル保存時に各行の末尾のスペースを削除
+  "files.autoSave": "off",
   "files.associations": {
     "*.C": "cpp",
     "*.C.in": "cpp",
@@ -38,6 +51,9 @@
   },
 
   "[cpp]": {
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
     "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
     "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
@@ -60,6 +76,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -69,12 +97,20 @@
   },
 
   "[css]": {
-    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "[markdown]": {
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
     "editor.formatOnType": false
+  },
+
+  "[csharp]": {
+    "editor.defaultFormatter": "eservice-online.vs-sharper"
   }
 }

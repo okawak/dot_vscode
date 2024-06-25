@@ -1,0 +1,52 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+w j",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+w k",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+w n",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+
+  {
+    "key": "ctrl+shift+t",
+    "command": "editor.action.transposeLetters",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-editor.action.transposeLetters",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "extension.vim_ctrl+t",
+    "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-extension.vim_ctrl+t",
+    "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  }
+]
