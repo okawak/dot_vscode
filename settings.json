@@ -25,13 +25,13 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示する文字列の設定
 
   "workbench.editor.tabSizing": "shrink", // editor tab size
-  "workbench.iconTheme": "vscode-icons-team.vscode-icons", // icon theme
+  "workbench.iconTheme": "vscode-icons", // icon theme
 
   "search.showLineNumbers": true,
 
   "breadcrumbs.enabled": false, // パンクズリスト非表示
 
-  "extensions.autoUpdate": true, // プラグインを自動アップデート
+  //"extensions.autoUpdate": true, // プラグインを自動アップデート
 
   "terminal.external.osxExec": "WezTerm.app",
   "terminal.integrated.fontSize": 14,
@@ -50,10 +50,11 @@
     "*.sh.in": "shellscript"
   },
 
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+
   "[cpp]": {
-    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
-    "C_Cpp.intelliSenseEngineFallback": "enabled",
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
     "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
     "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
@@ -108,9 +109,9 @@
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
     "editor.formatOnType": false
-  },
-
-  "[csharp]": {
-    "editor.defaultFormatter": "eservice-online.vs-sharper"
   }
+
+  //"[csharp]": {
+  //  "editor.defaultFormatter": "eservice-online.vs-sharper"
+  //}
 }
