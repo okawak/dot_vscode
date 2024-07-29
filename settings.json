@@ -58,6 +58,7 @@
     "lpubsppop01.autoTimeStamp.filenamePattern": ".h|.cc",
     "lpubsppop01.autoTimeStamp.momentFormat": " YYYY-MM-DD HH:mm:ss",
     "lpubsppop01.autoTimeStamp.birthTimeStart": " * @date    ",
+    "lpubsppop01.autoTimeStamp.modifiedTimeStart": " * @note    last modified:",
     "lpubsppop01.autoTimeStamp.lineLimit": 7
   },
 
