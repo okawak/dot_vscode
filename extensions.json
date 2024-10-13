@@ -25,6 +25,8 @@
     "vincaslt.highlight-matching-tag",
     "ms-dotnettools.csharp",
     "eservice-online.vs-sharper",
-    "ms-dotnettools.csdevkit"
+    "ms-dotnettools.csdevkit",
+    "james-yu.latex-workshop",
+    "mathematic.vscode-pdf"
   ]
 }

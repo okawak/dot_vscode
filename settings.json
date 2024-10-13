@@ -31,9 +31,6 @@
 
   "breadcrumbs.enabled": false, // パンクズリスト非表示
 
-  //"extensions.autoUpdate": true, // プラグインを自動アップデート
-
-  "terminal.external.osxExec": "WezTerm.app",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.env.osx": {
     "NO_COLOR": null
@@ -110,9 +107,179 @@
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
     "editor.formatOnType": false
-  }
+  },
 
-  //"[csharp]": {
-  //  "editor.defaultFormatter": "eservice-online.vs-sharper"
-  //}
+  "[tex]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tabSize": 2
+  },
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
+
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.wordWrap": "on",
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?。．、，（）「」『』［］｛｝《》てにをはがのともへでや ",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.unicodeHighlight.allowedCharacters": {
+      "，": true,
+      "．": true,
+      "！": true,
+      "？": true,
+      "［": true,
+      "］": true,
+      "｛": true,
+      "｝": true,
+      "＜": true,
+      "＞": true
+    },
+    "editor.stickyScroll.enabled": true
+  },
+
+  // LaTeX Workshop
+  // formatter
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.formatting.latexindent.path": "latexindent",
+  "latex-workshop.formatting.latexindent.args": [
+    "-c",
+    "%DIR%/",
+    "%TMPFILE%",
+    "-y=defaultIndent: '%INDENT%'"
+  ],
+  "latex-workshop.linting.chktex.enabled": true,
+  "latex-workshop.linting.lacheck.enabled": true,
+
+  "latex-workshop.latex.outDir": "out",
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.view.pdf.external.viewer.command": "",
+
+  // 使用パッケージのコマンドや環境の補完を有効にする
+  "latex-workshop.intellisense.package.enabled": true,
+
+  // 生成ファイルを削除するときに対象とするファイル
+  // デフォルト値に "*.synctex.gz" を追加
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.nav",
+    "*.dvi",
+    "*.synctex.gz"
+  ],
+
+  // エラーや警告を表示
+  "latex-workshop.message.log.show": true,
+
+  "latex-workshop.latex.watch.files.ignore": ["**/*.pdf"],
+  // ビルドのレシピ
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "uplatex",
+      "tools": ["Latexmk (upLaTeX)"]
+    },
+    {
+      "name": "pdflatex",
+      "tools": ["Latexmk (pdfLaTeX)"]
+    },
+    {
+      "name": "lualatex",
+      "tools": ["Latexmk (LuaLaTeX)"]
+    },
+    {
+      "name": "Xelatex",
+      "tools": ["Latexmk (XeLaTeX)"]
+    }
+  ],
+
+  // ビルドのレシピに使われるパーツ
+  "latex-workshop.latex.tools": [
+    {
+      "name": "Latexmk (upLaTeX)",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-file-line-error",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "Latexmk (pdfLaTeX)",
+      "command": "latexmk",
+      "args": [
+        "-latex='pdflatex'",
+        "-synctex=1",
+        "-file-line-error",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "Latexmk (LuaLaTeX)",
+      "command": "latexmk",
+      "args": [
+        "-lualatex",
+        "-synctex=1",
+        "-file-line-error",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "Latexmk (XeLaTeX)",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-file-line-error",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    }
+  ],
+
+  "[csharp]": {
+    "editor.defaultFormatter": "eservice-online.vs-sharper"
+  },
+  "cSpell.words": ["JSPS", "KAKENHI", "Nishina", "RIKEN"]
 }
