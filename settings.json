@@ -206,20 +206,20 @@
   // ビルドのレシピ
   "latex-workshop.latex.recipes": [
     {
-      "name": "uplatex",
-      "tools": ["Latexmk (upLaTeX)"]
-    },
-    {
-      "name": "pdflatex",
-      "tools": ["Latexmk (pdfLaTeX)"]
-    },
-    {
       "name": "lualatex",
       "tools": ["Latexmk (LuaLaTeX)"]
     },
     {
       "name": "Xelatex",
       "tools": ["Latexmk (XeLaTeX)"]
+    },
+    {
+      "name": "uplatex",
+      "tools": ["Latexmk (upLaTeX)"]
+    },
+    {
+      "name": "pdflatex",
+      "tools": ["Latexmk (pdfLaTeX)"]
     }
   ],
 
@@ -281,5 +281,5 @@
   "[csharp]": {
     "editor.defaultFormatter": "eservice-online.vs-sharper"
   },
-  "cSpell.words": ["JSPS", "KAKENHI", "Nishina", "RIKEN"]
+  "cSpell.words": ["JSPS", "KAKENHI", "Nishina", "Nucleosynthesis", "RIKEN"]
 }
