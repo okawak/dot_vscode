@@ -281,5 +281,19 @@
   "[csharp]": {
     "editor.defaultFormatter": "eservice-online.vs-sharper"
   },
-  "cSpell.words": ["JSPS", "KAKENHI", "Nishina", "Nucleosynthesis", "RIKEN"]
+  "cSpell.words": [
+    "Almaraz",
+    "Feshbach",
+    "Hauser",
+    "JSPS",
+    "KAKENHI",
+    "MSIT",
+    "Nishina",
+    "Nucleosynthesis",
+    "PPAC",
+    "RIKEN",
+    "SRIM",
+    "TALYS",
+    "XRBs"
+  ]
 }
