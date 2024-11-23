@@ -47,6 +47,8 @@
     "*.sh.in": "shellscript"
   },
 
+  "git.autofetch": true,
+
   "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IndentWidth: 4 }",
   "C_Cpp.intelliSenseEngineFallback": "enabled",
   "C_Cpp.intelliSenseEngine": "Tag Parser",
@@ -104,9 +106,7 @@
   },
 
   "[markdown]": {
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "[tex]": {
