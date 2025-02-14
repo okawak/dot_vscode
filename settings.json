@@ -68,6 +68,8 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.check.command": "clippy",
 
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
