@@ -26,6 +26,10 @@
 
   "workbench.editor.tabSizing": "shrink", // editor tab size
   "workbench.iconTheme": "vscode-icons", // icon theme
+  "workbench.colorCustomizations": {
+    "editorInlayHint.foreground": "#A0A0A0" // ヒントのテキスト色
+    // "editorInlayHint.background": "#000000" // ヒントの背景色
+  },
 
   "search.showLineNumbers": true,
 
