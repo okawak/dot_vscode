@@ -119,5 +119,5 @@
     "editor.defaultFormatter": "eservice-online.vs-sharper"
   },
 
-  "cSpell.words": ["proconio"]
+  "cSpell.words": ["proconio", "reqwest"]
 }
